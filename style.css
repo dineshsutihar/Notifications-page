@@ -55,6 +55,11 @@ header{
     color: var(--neutral-very-dark-blue);
   
   }
+  p:hover{
+    cursor: pointer;
+    color: var(--primary-blue);
+  
+  }
 
 }
 
@@ -86,11 +91,20 @@ header h2 .count{
 .name{
   font-weight: 800;
   color: var(--neutral-very-dark-blue);
-
 }
+.name:hover{
+  cursor: pointer;
+  color: var(--primary-blue);
+}
+
 .game{
   font-weight: 800;
   color: var(--primary-blue);
+}
+.highlight:hover{
+  cursor: pointer;
+  color: var(--primary-blue);
+
 }
 
 .new:after{
@@ -112,9 +126,14 @@ header h2 .count{
   width:90%;
   text-align: left;
   padding: 10px;
-  background-color: var(--neutral-light-grayish-blue-1);
+  
   border-radius: 10px;
   border: 1px solid var(--neutral-light-grayish-blue-2);
+}
+
+.message:hover{
+  cursor: pointer;
+  background-color: var(--neutral-light-grayish-blue-1);
 }
 
 .highlight{
